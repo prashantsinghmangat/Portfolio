@@ -33,7 +33,7 @@ function Projects() {
               title="e-Manas Karnataka Mental Health Management System"
               description="Designing a Mental Healthcare System for Hospitals that replaces
               traditional Pen and Paper Patient Records Management. "
-              // link="https://github.com/soumyajit4419/Plant_AI"
+              // link="https://gggggggggggggggggggg"
             />
           </Col>
 
@@ -43,7 +43,7 @@ function Projects() {
               isBlog={false}
               title="Clinical decision support solution (CDSS) - Cordova App"
               description="Coronavirus disease 2019 (COVID-19) has caused severe disruptions across the world. EHRC develops a clinical decision support system for the Physicians in order to help with COVID-19 on EHR.Network"
-              // link="https://github.com/soumyajit4419/Editor.io"
+              // link="https://gggggggggggggggggggg"
             />
           </Col>
 
@@ -53,7 +53,7 @@ function Projects() {
               isBlog={false}
               title="Teetank.in - Web App"
               description="Teetank is an emerging brand of tees. Teetank offer fashion, design, and services that enable people to be inspired and to express their own personal style making it easier to live in a more circular way."
-              // link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              // link="https://gggggggggggggggggggg"
             />
           </Col>
 
@@ -64,7 +64,7 @@ function Projects() {
               title="Defence Exam - Android App"
               description="Defence Exam App is a platform where one can prepare himself/herself for various Defence Exam. It provides you
               detailed information about Indian Armed Forces."
-              // link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // link="https://gggggggggggggggggggg"
             />
           </Col>
 
@@ -76,7 +76,7 @@ function Projects() {
               description="It is an online platform i.e. School Management System which assists in
               maintaining the school work more efficiently. It enables schools to work
               on a cloud-based ERP and helps to reduce their paperwork."
-              // link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
+              // link="https://gggggggggggggggggggg"
             />
           </Col>
         </Row>
