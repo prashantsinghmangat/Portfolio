@@ -7,7 +7,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import axios from "axios";
-import pdf from "../../Assets/Prashant-Resume.pdf";
+import pdf from "../../Assets/resume_merged.pdf";
 
 function Resume() {
   // const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";

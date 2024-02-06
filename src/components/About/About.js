@@ -39,15 +39,16 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
+         
           <Techstack iconName="cib-html5" />
           <Techstack iconName="cib-csswizardry" />
           <Techstack iconName="cib-angular" />
+          <Techstack iconName="cib-typescript" />
           <Techstack iconName="devicon-javascript-plain " />
           <Techstack iconName="devicon-android-plain-wordmark " />
-          <Techstack iconName="cib-typescript" />
           <Techstack iconName="devicon-react-original-wordmark" />
           <Techstack iconName="cib-postgresql" />
+          <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
         </Row>
