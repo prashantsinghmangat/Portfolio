@@ -39,7 +39,7 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-         
+
           <Techstack iconName="cib-html5" />
           <Techstack iconName="cib-csswizardry" />
           <Techstack iconName="cib-angular" />
@@ -47,6 +47,9 @@ function About() {
           <Techstack iconName="devicon-javascript-plain " />
           <Techstack iconName="devicon-android-plain-wordmark " />
           <Techstack iconName="devicon-react-original-wordmark" />
+          <Techstack iconName="devicon-figma-plain" />
+          <Techstack iconName="devicon-materialui-plain" />
+          <Techstack iconName="devicon-woocommerce-plain" />
           <Techstack iconName="cib-postgresql" />
           <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-git-plain-wordmark" />
@@ -56,12 +59,17 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-linux-plain" />
-          <Techstack iconName="devicon-wordpress-plain" />
+
+          <Techstack iconName="devicon-vscode-plain" />
+          <Techstack iconName="devicon-github-original" />
+          <Techstack iconName="devicon-gitlab-plain" />
           <Techstack iconName="cib-angular" />
           <Techstack iconName="cib-postman" />
+          <Techstack iconName="devicon-androidstudio-plain" />
+          <Techstack iconName="devicon-putty-plain" />
           <Techstack iconName="cib-eclipseide" />
-          <Techstack iconName="cib-heroku" />
+          <Techstack iconName="devicon-wordpress-plain" />
+          <Techstack iconName="devicon-linux-plain" />
         </Row>
         {/* <Github /> */}
       </Container>

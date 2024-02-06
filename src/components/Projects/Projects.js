@@ -14,6 +14,8 @@ import teelogo from "../../Assets/Projects/teelogo.png";
 import eyecare from "../../Assets/Projects/eyecare.png";
 import ltl from "../../Assets/Projects/ltl.png";
 import telemanas from "../../Assets/Projects/telemanas.png";
+import paperless from "../../Assets/Projects/paperless.png";
+
 // import algo from "../../Assets/Projects/algo.png";
 // import plant from "../../Assets/Projects/plant.jpeg";
 
@@ -33,7 +35,7 @@ function Projects() {
             <ProjectCard
               imgPath={ltl}
               // isBlog={false}
-              title="Let's Talk Life"
+              title="Let's Talk Life Gov."
               description="Feel free to post your questions here, and our team of trained volunteers will be happy to provide answers. Typically takes 48 hours for a response. "
             // link="https://gggggggggggggggggggg"
             />
@@ -49,6 +51,14 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={paperless}
+              // isBlog={false}
+              title="Paper Less Invoice Management System"
+              description="Invoice upload Management System"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={eyecare}
               // isBlog={false}
               title="Yatharth Eye Care Website / Patient Management System"
@@ -60,7 +70,7 @@ function Projects() {
             <ProjectCard
               imgPath={kmhmsimg}
               // isBlog={false}
-              title="e-Manas Karnataka Mental Health Management System"
+              title="e-Manas Karnataka Gov. Mental Health Management System"
               description="Designing a Mental Healthcare System for Hospitals that replaces
               traditional Pen and Paper Patient Records Management. "
             // link="https://gggggggggggggggggggg"

@@ -60,6 +60,12 @@ function Resume() {
             
             <h3 className="resume-title">Side Works</h3>
             <Resumecontent
+              title="Paper Less Invoice Management System"
+              content={[
+                "Invoice upload Management System",
+              ]}
+            />
+            <Resumecontent
               title="Eye Care Management System"
               content={[
                 "Patient management in Hospital : https://yathartheyecare.com/",
