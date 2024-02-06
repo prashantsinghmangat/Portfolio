@@ -51,18 +51,30 @@ function Resume() {
               ]}
             />
             <Resumecontent
-              title="Android Developer, Marketing, Team mangaement at Fizday.com"
-              date="2020 - Present"
+              title="Freelancing Android Developer, Marketing, Team mangaement at Fizday.com"
+              date="Jan - 2020 - June -2020"
               content={[
                 "Solely responsible for creating product, implementing, reviewing, managing, designing, server maintenance, bugs and customer support 1100+ registered & invited 500+ designers registrations in 4 days and Increased traffic by 500% in 7 days of launching and 5000+ monthly visitors (Launch Date - April 27th, 2020)"
               ]}
             />
             
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            <h3 className="resume-title">Side Works</h3>
             <Resumecontent
-              title="Member of UNYC (United Nation Youth Community)"
+              title="Eye Care Management System"
               content={[
-                "Team manage and working as a Volenter",
+                "Patient management in Hospital : https://yathartheyecare.com/",
+              ]}
+            />
+            <Resumecontent
+              title="Teetank.in - Website"
+              content={[
+                "Emerging brand of tees. Offers fashion, design and services that enable people to be inspired and to express their own personal style making it easier to live in a more circular way.",
+              ]}
+            />
+            <Resumecontent
+              title="Defence Exam - Android App"
+              content={[
+                "Defence Exam App is a platform where one can prepare himself/herself for various Defence Exam. It provides you detailed information about Indian Armed Forces.",
               ]}
             />
             <Resumecontent
