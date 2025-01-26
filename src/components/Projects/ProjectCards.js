@@ -18,6 +18,32 @@ function ProjectCards(props) {
           {props.isBlog ? "View Blog" : "View Project"}
         </Button> */}
       </Card.Body>
+
+      <div className="button-container">
+        {props.githubLink && (
+          <Button
+            variant="primary"
+            href={props.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="m-1"
+          >
+            GitHub
+          </Button>
+        )}
+        {props.demoLink && (
+          <Button
+            variant="success"
+            href={props.demoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="m-1"
+          >
+            Web Demo
+          </Button>
+        )}
+      </div>
+
     </Card>
   );
 }
