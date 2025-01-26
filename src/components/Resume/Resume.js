@@ -8,6 +8,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import axios from "axios";
 import pdf from "../../Assets/resume_merged.pdf";
+import resumeonly from "../../Assets/prashant-singh-resume.pdf";
 
 function Resume() {
   // const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -35,7 +36,7 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={resumeonly} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>

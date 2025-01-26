@@ -74,8 +74,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nexgentalkImg}
-              githubLink="https://github.com/prashantsinghmangat/NexGenStocks"
-              demoLink="https://nexgenstocks.netlify.app/"
+              // githubLink="https://github.com/prashantsinghmangat/NexGenStocks"
+              demoLink="https://nexgentalk.com/"
               // isBlog={false}
               title="NexGenTalk | Wordpress"
               description="Your trusted companion for tracking Indian stock market investments and making informed decisions. "
@@ -98,8 +98,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ltl}
-              githubLink="https://github.com/example/project"
-              demoLink="https://example.com/project"
+              // githubLink="https://github.com/example/project"
+              demoLink="https://www.letstalklifeforum.in/#/home"
               // isBlog={false}
               title="Let's Talk Life Gov | Angular App"
               description="Feel free to post your questions here, and our team of trained volunteers will be happy to provide answers. Typically takes 48 hours for a response. "
