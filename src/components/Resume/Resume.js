@@ -7,8 +7,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import axios from "axios";
-import pdf from "../../Assets/resume_merged.pdf";
-import resumeonly from "../../Assets/prashant-singh-resume.pdf";
+import resumepdf from "../../Assets/prashant-singh-resume.pdf";
 
 function Resume() {
   // const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -36,13 +35,21 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={resumeonly} target="_blank">
+          <Button variant="primary" href={resumepdf} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+            <Resumecontent
+              title="Senior Software Engineer (ReactJS, Angular, NextJS)
+                at Moglix (Moglix.com, Credlix.com, Tendershark.com) "
+              date="2024 - Present"
+              content={[
+                "Singapore, established in 2015. It operates in India, the USA, the UK, and Europe. Credlix.com - ReactJS and NextJS DigiMRO - ReactJS and NextJs Tendershark.com - Complete website development, which include SSR, SEO, UI, and optimization Moglix.com - ReactJS Revamp of L2, L3 pages added all the new widgets, cards, and grids"
+              ]}
+            />
             <Resumecontent
               title="(Android , Full-stack
                 developer) at EHRC IIIT Bangalore"
@@ -129,7 +136,7 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={resumepdf} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
