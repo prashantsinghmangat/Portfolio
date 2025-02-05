@@ -21,6 +21,9 @@ import nexgentoolsImg from "../../Assets/Projects/nexgentools.png";
 import myedusyncImg from "../../Assets/Projects/myedusync.png";
 import tendersharkImg from "../../Assets/Projects/tendershark.png";
 import nexgentalkImg from "../../Assets/Projects/nexgentalk.png";
+import nexgenmusicImg from "../../Assets/Projects/nexgenmusic.png";
+import nexgenkanbanboardImg from "../../Assets/Projects/nexgenkanbanboard.png";
+import nexgengramImg from "../../Assets/Projects/nexgengram.png";
 
 function Projects() {
   return (
@@ -34,6 +37,43 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nexgenmusicImg}
+              githubLink="https://github.com/prashantsinghmangat/NexGenMusic"
+              demoLink="https://nexgenmusic.netlify.app/"
+              // isBlog={false}
+              title="NexGenMusic | React App"
+              description="A modern, responsive music player interface built with React and Tailwind CSS."
+            // link="https://gggggggggggggggggggg"
+            />
+          </Col>
+          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nexgengramImg}
+              githubLink="https://github.com/prashantsinghmangat/nexgenGram-Instagram-Clone"
+              demoLink="https://nexgengram.netlify.app/"
+              // isBlog={false}
+              title="NexGenGram Instagram Clone | React App"
+              description="A modern social media application built with React, featuring Instagram-like functionality including stories, posts, likes, comments, and user authentication."
+            // link="https://gggggggggggggggggggg"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nexgenkanbanboardImg}
+              githubLink="https://github.com/prashantsinghmangat/Prashant-Kanban-Board"
+              demoLink="https://prashant-kanban-board.netlify.app/"
+              // isBlog={false}
+              title="NexGenBoard Kanban Board | React App"
+              description="The Kanban Board project can transform from a basic task list into a robust project management tool to visualize workflows and optimize team collaboration."
+            // link="https://gggggggggggggggggggg"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
